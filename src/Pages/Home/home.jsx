@@ -1,11 +1,12 @@
 import React from 'react'
 import './home.css'
+import Sidebar from '../../components/sidebar/sidebar'
 
 const Home = () => {
     return (
-        <div>
-        
-        </div>
+        <>
+            <Sidebar/>
+        </>
     )
 }
 export default Home;
